@@ -1,0 +1,59 @@
+.customers {
+  background: #000;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Badge */
+
+.customers-badge {
+  display: inline-block;
+  background: #0ea5a8;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* Logos */
+
+.customers-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.customers-logos img {
+  height: 40px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* white effect */
+}
+
+/* Info */
+
+.customers-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 14px;
+  color: #00d1d1;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .customers-logos {
+    gap: 25px;
+  }
+
+  .customers-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
