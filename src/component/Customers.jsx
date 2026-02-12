@@ -1,5 +1,5 @@
 import React from "react";
-import "./customers.css";
+import "./Customers.css";
 import images1 from "../../public/image/image 14.png"
 import images2 from "../../public/image/image 15.png"
 import images3 from "../../public/image/image 16.png"
